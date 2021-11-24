@@ -2565,14 +2565,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/FesBNB",
+                href: "https://t.me/BurntCakeToken",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FesBNB",
+        href: "https://twitter.com/BurntCakeToken",
     },
 ];
 var MENU_HEIGHT = 64;
