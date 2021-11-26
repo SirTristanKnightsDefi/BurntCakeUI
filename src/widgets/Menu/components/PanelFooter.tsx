@@ -79,7 +79,7 @@ const PanelFooter: React.FC<Props> = ({
         {cakePriceUsd ? (
           <PriceLink href="https://pancakeswap.info/token/0x929e0f859a2CA6651Db2961100f503F7b20a1A41" target="_blank">
             <img
-              src="https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W"
+              src="https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA"
               alt="Burnt Cake Logo"
               style={{
                 width: "24px",
@@ -92,7 +92,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24}>
           <img
-              src="https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W"
+              src="https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA"
               alt="Burnt Cake Logo"
               style={{
                 width: "24px",

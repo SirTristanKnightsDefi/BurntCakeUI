@@ -2442,17 +2442,17 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA';
     }
     else {
-        banner = 'https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W';
+        banner = 'https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA';
     }
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Burnt Cake home page" },
-            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W", alt: "Burnt Cake Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA", alt: "Burnt Cake Logo", className: "mobile-icon" }),
             React__default['default'].createElement("img", { src: banner, alt: "FesBNB Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Burnt Cake home page" },
-            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W", alt: "Burnt Cake Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA", alt: "Burnt Cake Logo", className: "mobile-icon" }),
             React__default['default'].createElement("img", { src: banner, alt: "Burnt Cake Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
@@ -2737,12 +2737,12 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container, null,
         React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x929e0f859a2CA6651Db2961100f503F7b20a1A41", target: "_blank" },
-            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W", alt: "Burnt Cake Logo", style: {
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA", alt: "Burnt Cake Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
-            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W", alt: "Burnt Cake Logo", style: {
+            React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA", alt: "Burnt Cake Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

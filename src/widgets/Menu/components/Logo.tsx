@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA';
   } else {
-    banner = 'https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W';
+    banner = 'https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA';
   }
 
   return (
@@ -51,7 +51,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Burnt Cake home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W"
+            src="https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA"
             alt="Burnt Cake Logo"
             className="mobile-icon"
           />
@@ -64,7 +64,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       ) : (
         <StyledLink to={href} aria-label="Burnt Cake home page">
           <img
-            src="https://gateway.pinata.cloud/ipfs/QmbHaWedFjBtggsEM9LcfZ4NvSNLRgbz2HVtf4ad99hB4W"
+            src="https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA"
             alt="Burnt Cake Logo"
             className="mobile-icon"
           />
