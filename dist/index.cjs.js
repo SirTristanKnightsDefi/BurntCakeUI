@@ -2741,7 +2741,7 @@ var PanelFooter = function (_a) {
                     width: "24px",
                     marginRight: "8px",
                 } }),
-            React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
+            React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(6)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
             React__default['default'].createElement("img", { src: "https://gateway.pinata.cloud/ipfs/QmbfV9SVSmR3kvYFAD5QjUPZ7bL5ebaRciv9hvMbm7TxVA", alt: "Burnt Cake Logo", style: {
                     width: "24px",
                     marginRight: "8px",
